@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FullApp.ThermometerDemo.Core\FullApp.ThermometerDemo.Core.csproj" />
+    <ProjectReference Include="..\Modules\FullApp.ThermometerDemo.Modules.ModuleName\FullApp.ThermometerDemo.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\FullApp.ThermometerDemo.Services.Interfaces\FullApp.ThermometerDemo.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\FullApp.ThermometerDemo.Services\FullApp.ThermometerDemo.Services.csproj" />
+  </ItemGroup>
+</Project>

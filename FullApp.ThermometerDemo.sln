@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{77132716-4D63-4628-8E19-4675BB399626}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo.Modules.ModuleName.Tests", "FullApp.ThermometerDemo\Tests\FullApp.ThermometerDemo.Modules.ModuleName.Tests\FullApp.ThermometerDemo.Modules.ModuleName.Tests.csproj", "{2FC0512C-D282-4CB7-8BD9-191DACA8CB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B809044B-F717-46A2-BD07-DA98E442DE69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo.Modules.ModuleName", "FullApp.ThermometerDemo\Modules\FullApp.ThermometerDemo.Modules.ModuleName\FullApp.ThermometerDemo.Modules.ModuleName.csproj", "{EE477AD4-2578-4C02-92D6-5D1C37839CE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5FA68F8C-FA9A-499D-A93D-93B497F798EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo.Services", "FullApp.ThermometerDemo\Services\FullApp.ThermometerDemo.Services\FullApp.ThermometerDemo.Services.csproj", "{E3B15512-D294-44A5-B58A-51E267628018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo.Services.Interfaces", "FullApp.ThermometerDemo\Services\FullApp.ThermometerDemo.Services.Interfaces\FullApp.ThermometerDemo.Services.Interfaces.csproj", "{2EAAB45E-54F8-431E-A470-095E98F2F79D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo", "FullApp.ThermometerDemo\FullApp.ThermometerDemo\FullApp.ThermometerDemo.csproj", "{4728A171-4DAA-4932-AB33-0C4E7C04A36B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullApp.ThermometerDemo.Core", "FullApp.ThermometerDemo\FullApp.ThermometerDemo.Core\FullApp.ThermometerDemo.Core.csproj", "{13F75252-E9EB-4DDC-9563-49D6DFBA7CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Control", "Common.Control\Common.Control.csproj", "{65D3B360-31B9-4100-8638-C74BD4BA2EE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FC0512C-D282-4CB7-8BD9-191DACA8CB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC0512C-D282-4CB7-8BD9-191DACA8CB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC0512C-D282-4CB7-8BD9-191DACA8CB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC0512C-D282-4CB7-8BD9-191DACA8CB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE477AD4-2578-4C02-92D6-5D1C37839CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE477AD4-2578-4C02-92D6-5D1C37839CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE477AD4-2578-4C02-92D6-5D1C37839CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE477AD4-2578-4C02-92D6-5D1C37839CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B15512-D294-44A5-B58A-51E267628018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B15512-D294-44A5-B58A-51E267628018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B15512-D294-44A5-B58A-51E267628018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B15512-D294-44A5-B58A-51E267628018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAAB45E-54F8-431E-A470-095E98F2F79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAAB45E-54F8-431E-A470-095E98F2F79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAAB45E-54F8-431E-A470-095E98F2F79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAAB45E-54F8-431E-A470-095E98F2F79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4728A171-4DAA-4932-AB33-0C4E7C04A36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4728A171-4DAA-4932-AB33-0C4E7C04A36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4728A171-4DAA-4932-AB33-0C4E7C04A36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4728A171-4DAA-4932-AB33-0C4E7C04A36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F75252-E9EB-4DDC-9563-49D6DFBA7CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F75252-E9EB-4DDC-9563-49D6DFBA7CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F75252-E9EB-4DDC-9563-49D6DFBA7CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F75252-E9EB-4DDC-9563-49D6DFBA7CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D3B360-31B9-4100-8638-C74BD4BA2EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D3B360-31B9-4100-8638-C74BD4BA2EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D3B360-31B9-4100-8638-C74BD4BA2EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D3B360-31B9-4100-8638-C74BD4BA2EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FC0512C-D282-4CB7-8BD9-191DACA8CB47} = {77132716-4D63-4628-8E19-4675BB399626}
+		{EE477AD4-2578-4C02-92D6-5D1C37839CE3} = {B809044B-F717-46A2-BD07-DA98E442DE69}
+		{E3B15512-D294-44A5-B58A-51E267628018} = {5FA68F8C-FA9A-499D-A93D-93B497F798EE}
+		{2EAAB45E-54F8-431E-A470-095E98F2F79D} = {5FA68F8C-FA9A-499D-A93D-93B497F798EE}
+		{65D3B360-31B9-4100-8638-C74BD4BA2EE1} = {B809044B-F717-46A2-BD07-DA98E442DE69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F82BC8D2-9912-4782-A346-05EE221F2575}
+	EndGlobalSection
+EndGlobal
