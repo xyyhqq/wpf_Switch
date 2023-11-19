@@ -5,10 +5,11 @@
              xmlns:prism="http://prismlibrary.com/"
              xmlns:uc="clr-namespace:Common.Control;assembly=Common.Control"
              xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="FullApp.ThermometerDemo.Modules.ModuleName.Views.ViewA"
-             prism:ViewModelLocator.AutoWireViewModel="True"  Width="1500"  Height="800.64">
+             prism:ViewModelLocator.AutoWireViewModel="True"  Width="1500"  Height="1200">
+
     <StackPanel HorizontalAlignment="Left">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-            <uc:UcSwitch Name="switch" Width="150" Height="150" IsOn="True" CloseText="手动" OpenText="自动" CloseAngle="-150" OpenAngle="-30" OpenStatusColor="#107c10"   CloseStatusColor="#a80000" ActionCommand="{Binding MyCommand}" />
+            <uc:UcSwitch Name="switch" Width="150" Height="150" IsOn="True" CloseText="手动" OpenText="自动" CloseAngle="-120" OpenAngle="-60" OpenStatusColor="#107c10"   CloseStatusColor="#a80000" ActionCommand="{Binding MyCommand}" />
             <TextBlock Margin="10 0 0 0 " Text="{Binding ElementName=switch,Path=IsOn}" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
         </StackPanel>
 
