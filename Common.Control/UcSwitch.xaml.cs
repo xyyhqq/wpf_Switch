@@ -10,6 +10,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -119,14 +120,19 @@ namespace Common.Control
             //开启状态
             if (IsOn)
             {
-                this.ratedPin.Angle = OpenAngle;
+                DoubleAnimation doubleAnimation = new DoubleAnimation(OpenAngle, TimeSpan.FromMilliseconds(500));
+                this.ratedPin.BeginAnimation(RotateTransform.AngleProperty, doubleAnimation);
+
                 this.pinText.Text = OpenText;
                 statusEllipse.Fill = new SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString(OpenStatusColor));
                 statusEllipseOutter.Fill = new SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString(OpenStatusColor));
             }
             else
-            {  //关闭状态
-                this.ratedPin.Angle = CloseAngle;
+            {
+                DoubleAnimation doubleAnimation = new DoubleAnimation(CloseAngle, TimeSpan.FromMilliseconds(500));
+                this.ratedPin.BeginAnimation(RotateTransform.AngleProperty, doubleAnimation);
+                //关闭状态
+
                 this.pinText.Text = CloseText;
                 statusEllipse.Fill = new SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString(CloseStatusColor));
                 statusEllipseOutter.Fill = new SolidColorBrush((System.Windows.Media.Color)System.Windows.Media.ColorConverter.ConvertFromString(CloseStatusColor));
